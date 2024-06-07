@@ -1,0 +1,14 @@
+.switch-container .ant-switch-handle {
+  background-color: #831C55;
+}
+
+.main {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: calc(100%-20%);
+  height: auto;
+  background-color: aquamarine;
+  font-family: "Manrope", sans-serif;
+}
+

@@ -1,0 +1,105 @@
+.wrapper {
+  font-family: "Manrope", sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--white);
+
+  .Box {
+    font-family: "Manrope", sans-serif;
+    margin: 15% 25% 10% 30%;
+    h1 {
+      margin-top: 0;
+      margin-bottom: 1em;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 18px;
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      .Showemail {
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: 500;
+        line-height: 18.2px;
+        font-family: "Manrope", sans-serif;
+        color: #831c55;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 5px;
+        line-height: 18.2px;
+
+        font-weight: 500;
+        font-family: "Manrope", sans-serif;
+      }
+      .lowText {
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #6a6a6d;
+      }
+
+      .ResendOtpText {
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        color: #831c55;
+        text-decoration: none; /* Add underline */
+        cursor: pointer;
+        .ResendOtpText:hover {
+          transition: width 0.3s ease;
+          text-decoration: underline; /* Show underline on hover */
+        }
+      }
+      .errorText {
+        font-family: "Manrope", sans-serif;
+        font-size: small;
+        color: red;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .Box {
+      margin: 100% 0% 0% 30%;
+    }
+  }
+}
+
+.globalWrap :global {
+  font-family: "Manrope", sans-serif;
+  .otpInutField_otpContent__UB_aC input {
+    margin-right: 20px;
+    height: 60px !important;
+    width: 60px !important;
+    font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    .otpInutField_otpContent__UB_aC input {
+      margin-right: 5px;
+      height: 30px !important;
+      width: 30px !important;
+      font-size: 10px;
+      border-radius: 5px;
+    }
+  }
+  .customButton {
+    height: 50;
+    width: 550px;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  @media (max-width: 768px) {
+    .customButton {
+      height: 30px;
+      width: 130px;
+      font-family: "Manrope", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}

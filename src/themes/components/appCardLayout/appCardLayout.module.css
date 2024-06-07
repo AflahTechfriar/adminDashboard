@@ -1,0 +1,22 @@
+.customCard {
+    display: inline-block;
+    border: 0.9px solid var(--basic_stroke);
+    border-radius: 10.83px;
+    padding: 20px;
+    background-color: var(--white);
+    margin: var(--size-20);
+  }
+  
+  /* card hover effect */
+  .customCard:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* card description */
+  .card_description {
+    font-size: var(--font-14);
+    font-weight: 500;
+    color: var(--textGrey);
+    line-height: 19.6px;
+  }
+  

@@ -1,0 +1,296 @@
+.candidatesTableWrap {
+  margin: 20px;
+}
+
+.candidatesTable :global {
+  .css-dev-only-do-not-override-fpg3f5 {
+    .ant-badge.ant-badge-status {
+      .ant-badge-status-text {
+        margin-inline-start: 8px;
+        color: #faad14;
+        font-size: var(--size-14);
+        font-family: ("Manrope");
+        font-weight: 500;
+      }
+    }
+  }
+
+  .ant-table {
+    border: 1px solid #e9e9e9;
+    border-radius: var(--border-radius);
+  }
+
+  .ant-pagination-item {
+    display: none;
+  }
+
+  .ant-table-pagination {
+    .ant-pagination-total-text {
+      font-size: 13px;
+      font-weight: 500;
+      color: #6a6a6d;
+    }
+
+    .ant-pagination-next svg,
+    .ant-pagination-prev svg {
+      font-size: 12px;
+      color: #454545;
+    }
+
+    .ant-pagination-options {
+      order: -1;
+      flex-grow: 1;
+      display: flex;
+      margin: 0;
+
+      &::before {
+        content: "Show rows per page";
+        margin-right: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        align-self: center;
+        color: #6a6a6d;
+      }
+
+      .ant-pagination-options-size-changer {
+        border-radius: 6px;
+        border: 1px solid #e9e9e9;
+
+        .ant-select-selector {
+          padding: 0 8px;
+          font-size: 12px;
+          color: #1e1f21;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .ant-table-column-sorters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .ant-table-column-title {
+    flex-grow: 0;
+  }
+
+  .ant-table-thead {
+    .ant-table-cell:first-child {
+      border-top-left-radius: var(--border-radius) !important;
+    }
+
+    .ant-table-cell:last-child {
+      border-top-right-radius: var(--border-radius) !important;
+    }
+
+    .ant-table-cell {
+      font-size: 12px;
+      padding: 7px 15px;
+      font-weight: 500;
+      font-family: "Manrope", sans-serif;
+
+      color: #686869;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  .ant-table-tbody {
+    tr:last-child > td {
+      border: none;
+    }
+
+    & > tr.ant-table-row:hover > td {
+      background: unset;
+    }
+
+    .ant-table-cell {
+      padding: 7px 15px;
+
+      font-size: var(--size-14);
+      font-family: "Manrope", sans-serif;
+
+      font-weight: 500;
+      color: #1e1f21;
+
+      .ant-badge-status-success {
+        background-color: #2b8657;
+        & ~ .ant-badge-status-text {
+          color: #2b8657;
+          font-size: var(--size-14);
+          font-family: "Manrope", sans-serif;
+
+          font-weight: 500;
+        }
+      }
+
+      .ant-badge-status-error {
+        background-color: #bb2f38;
+        & ~ .ant-badge-status-text {
+          color: #bb2f38;
+          font-size: var(--size-14);
+          font-family: "Manrope", sans-serif;
+
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.rowActionButtonCell {
+  text-align: right;
+  color: #1e1f21;
+  stroke-width: 60;
+  stroke: black;
+}
+
+.candidatesTableWrap {
+  margin: 20px;
+}
+
+.candidatesTable :global {
+  .ant-table {
+    border: 1px solid #e9e9e9;
+    border-radius: var(--border-radius);
+  }
+
+  .ant-pagination-item {
+    display: none;
+  }
+
+  .ant-table-pagination {
+    .ant-pagination-total-text {
+      font-size: 13px;
+      font-weight: 500;
+      color: #6a6a6d;
+    }
+
+    .ant-pagination-next svg,
+    .ant-pagination-prev svg {
+      font-size: 12px;
+      color: #454545;
+    }
+
+    .ant-pagination-options {
+      order: -1;
+      flex-grow: 1;
+      display: flex;
+      margin: 0;
+
+      &::before {
+        content: "Show rows per page";
+        margin-right: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        align-self: center;
+        color: #6a6a6d;
+      }
+
+      .ant-pagination-options-size-changer {
+        border-radius: 6px;
+        border: 1px solid #e9e9e9;
+
+        .ant-select-selector {
+          padding: 0 8px;
+          font-size: 12px;
+          color: #1e1f21;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .ant-table-column-sorters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; /* Show ellipsis (...) for truncated text */
+  }
+
+  .ant-table-column-title {
+    width: 100%;
+    flex-grow: 0;
+  }
+
+  .ant-table-thead {
+    .ant-table-cell:first-child {
+      border-top-left-radius: var(--border-radius) !important;
+    }
+
+    .ant-table-cell:last-child {
+      border-top-right-radius: var(--border-radius) !important;
+    }
+
+    .ant-table-cell {
+      font-size: 12px;
+      padding: 7px 15px;
+      font-weight: 600;
+      font-family: "Manrope", sans-serif;
+
+      color: #686869;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  .ant-table-tbody {
+    tr:last-child > td {
+      border: none;
+    }
+
+    & > tr.ant-table-row:hover > td {
+      background: unset;
+    }
+
+    .ant-table-cell {
+      padding: 7px 15px;
+
+      font-size: var(--size-14);
+      font-family: "Manrope", sans-serif;
+
+      font-weight: 500;
+      color: #1e1f21;
+
+      .ant-badge-status-success {
+        background-color: #2b8657;
+        & ~ .ant-badge-status-text {
+          color: #2b8657;
+          font-size: var(--size-14);
+          font-family: "Manrope", sans-serif;
+
+          font-weight: 500;
+        }
+      }
+
+      .ant-badge-status-error {
+        background-color: #bb2f38;
+        & ~ .ant-badge-status-text {
+          color: #bb2f38;
+          font-size: var(--size-14);
+          font-family: "Manrope", sans-serif;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.rowActionButtonCell {
+  text-align: right;
+  color: #1e1f21;
+  stroke-width: 60;
+  stroke: black;
+}
+
+// fields
+
+// fields

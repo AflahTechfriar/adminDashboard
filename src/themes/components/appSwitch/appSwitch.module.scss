@@ -1,0 +1,17 @@
+
+.switch {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.69rem;
+  justify-content: space-between;
+  font-size: 14px;
+  & .switchLabel {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+  }
+}
+.switch :global .ant-switch-checked {
+  background-color: #831C55 !important;
+}

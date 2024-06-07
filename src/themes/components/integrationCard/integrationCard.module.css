@@ -1,0 +1,28 @@
+.integration_card{
+    width: 248px;
+    max-height: 181px !important;
+}
+
+.logo_container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.logo {
+  margin-top: 0 !important;  
+  padding-top: 0 !important;
+}
+
+.integration_card_content{
+    margin-top: 25px !important;
+    height: 68px;
+}
+
+.integration_card_passage{
+    font-size: var(--font-14);
+    font-weight: 400;
+    font-size: Manrope;
+    line-height: 19.6px;
+    color: var(--integrationCardGray);
+}

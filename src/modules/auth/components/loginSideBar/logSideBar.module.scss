@@ -1,0 +1,93 @@
+.wrapper {
+  position: relative;
+  height: 100vh;
+  width: 50%;
+  background: linear-gradient(to left, #f5f3d9, #fbb8dc);
+
+  .bgImage {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+  }
+
+  .head {
+    width: 100%;
+
+    .link {
+      cursor: pointer;
+      .logoSection {
+        margin: 5%;
+        display: flex;
+        align-items: end;
+
+        .vadnuText {
+          margin-top: 2px;
+          font-size: 25px;
+          line-height: 25px;
+          font-weight: 700;
+          font-family: "Manrope", sans-serif;
+        }
+        .vadnuLogo {
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+
+  .body {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .bodyHead {
+      margin-top: 10%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .HeadTextSpecial {
+        background: linear-gradient(to right, #851e55 0%, #ea703d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 46.8px;
+        letter-spacing: -2px;
+        font-family: "Manrope", sans-serif;
+      }
+      .HeadText {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 46.8px;
+        letter-spacing: -2px;
+        font-family: "Manrope", sans-serif;
+      }
+      .underline {
+        top: -20px;
+      }
+    }
+
+    .bodyContent {
+      position: relative;
+      height: 100%;
+      z-index: 2;
+
+      .boxImage {
+        position: absolute;
+
+        top: -50px;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        object-fit: contain; /* Ensure the image fits inside its container */
+      }
+    }
+  }
+}

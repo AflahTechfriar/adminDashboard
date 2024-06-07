@@ -1,0 +1,28 @@
+.customTitle{
+    font-family: 'Manrope';
+    color: var(--title_text_black);
+}
+
+/* size === small */
+.customTitle:global(.small-title){
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* size === middle  */
+.customTitle:global(.middle-title){
+    font-size: 20px;
+    font-family: 800;
+}
+
+/* size === large */
+.customTitle:global(.large-title){
+    font-size: 24px;
+    font-family: 800;
+}
+
+/* size === extraLarge */
+.customTitle:global(.extraLarge-title){
+    font-size: 40px;
+    font-weight: 800;
+}

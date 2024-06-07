@@ -1,0 +1,51 @@
+/* custom switch styles */
+.customSwitch:global(.ant-switch) {
+    min-width: 39px !important;
+    height: 19px !important;
+  }
+  
+  /* switch inner handler styles */
+  .customSwitch:global(.ant-switch .ant-switch-handle)::before {
+    box-shadow: none !important;
+    width: 15px;
+    height: 15px;
+    inset-inline-start: 0px;
+  }
+  
+  /* switch inner handler styles on checked */
+  .customSwitch:global(.ant-switch-checked .ant-switch-handle)::before {
+    width: 15px;
+    height: 15px;
+    inset-inline-start: 3px;
+  }
+  
+  /* switch on state styels */
+  .customSwitch:global(.ant-switch-checked) {
+    background-color: var(
+      --primaryShade400
+    ) !important; /* Background color for on state */
+  }
+  
+  .customSwitch:global(.ant-switch-checked):hover {
+    background-color: var(
+      --primaryShade400
+    ) !important; /* Background color for on state */
+  }
+  
+  /* switch off state styles */
+  .customSwitch:global(.ant-switch) {
+    background-color: var(
+      --toggleButtonGray
+    ); /* Default background color for off state */
+  }
+  
+  .customSwitch:global(.ant-switch):hover {
+    background-color: var(
+      --toggleButtonGray
+    ); /* Default background color for off state */
+  }
+  
+  /* styles to remove default effects on on and off state */
+  .customSwitch:global(.ant-switch .ant-wave){
+    display: none !important; /* Remove click animation */
+  }

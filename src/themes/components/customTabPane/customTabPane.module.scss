@@ -1,0 +1,27 @@
+.tabs {
+    &:hover {
+      color: #202123 !important;
+    }
+    & :global .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: var(--secondryColor) !important;
+      font-family: Manrope;
+      font-size: 16px;
+    }
+    & :global .ant-tabs-tab-btn {
+      color: var(--subText);
+      font-family: Manrope;
+      font-size: 16px;
+
+    }
+    & :global .ant-tabs-tab {
+      padding-bottom: 0.58rem;
+    }
+    & :global .ant-tabs-nav {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    & .tabPane {
+      width: auto;
+      margin-right: 2.56 rem;
+    }
+  }

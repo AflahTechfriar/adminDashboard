@@ -1,0 +1,107 @@
+/* .body{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+} */
+.boxWrapper {
+    width: 100%;
+    background-color: #ffffff;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.boxWrapper p {
+    color: #091420;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+  position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #DFDFDF;
+    height: 200px !important;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    &:hover {
+      box-shadow: 0px 0px 30px -15px rgba(74, 74, 74, 1);
+  
+      .hovericons {
+        display: flex;
+        gap: 2px;
+        transition: opacity 0.1s ease-in;
+        opacity: 1;
+      }
+    }
+
+    .hovericons {
+      position: absolute;
+      right: 15px;
+      display: none;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: auto;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+  }
+  .wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .wrapper p {
+    color: #091420;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+  }
+.card {
+    background-color: #F9F3ED;
+    width: 100%;
+    height: auto;
+    padding: 10px; 
+    border-radius: 10px;
+  }
+  
+  .card p {
+    margin: 0; 
+  }
+  
+  .id {
+    color: #091420;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 2px;
+  }
+  
+  .name {
+    color: #686869;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 8px;
+  }
+  
+  .amount {
+    color: #091420;
+    font-size: 16px; 
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  

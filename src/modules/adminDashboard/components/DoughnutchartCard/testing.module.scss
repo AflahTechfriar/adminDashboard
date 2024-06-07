@@ -1,0 +1,116 @@
+/* .body{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+} */
+.boxWrapper {
+    width: 100%;
+    background-color: #ffffff;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.boxWrapper p {
+    color: #091420;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #DFDFDF;
+    height: 228px !important;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    position: relative;
+    &:hover {
+      box-shadow: 0px 0px 30px -15px rgba(74, 74, 74, 1);
+  
+      .hovericons {
+        display: flex;
+        gap: 2px;
+        transition: opacity 0.1s ease-in;
+        opacity: 1;
+      }
+    }
+
+    .hovericons {
+      position: absolute;
+      right: 15px;
+      display: none;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: auto;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+  }
+  .wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .wrapper p {
+    color: #091420;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+  }
+  .DnChartHead{
+    color: #091420;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+  }
+  .TextBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;  
+    height: 50%; 
+    margin-top: 25px;
+  }
+  
+  .innertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Dnvalue {
+    color: #091420;
+    font-family: "Manrope", sans-serif;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .Dnsubvalue {
+    color: #091420;
+    font-family: "Manrope", sans-serif;
+    font-size: calc(0.6rem + 0.5vw); 
+    font-weight: 700;
+    text-align: center;
+  }
+  

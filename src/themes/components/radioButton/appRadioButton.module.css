@@ -1,0 +1,28 @@
+
+.CustomRadioButton :global .ant-radio-inner {
+    width: 20px; /* Adjust the width */
+    height: 20px; /* Adjust the height */
+  }
+  
+.CustomRadioButton :global .ant-radio-checked .ant-radio-inner {
+    background-color: #831C55;
+    border-color: #831C55;
+  }
+  
+  .CustomRadioButton :global .ant-radio-checked .ant-radio-inner::after {
+    border: 2px solid white inset; /* Add this line */
+  }
+  
+  .CustomRadioButton :global .ant-radio-wrapper:hover .ant-radio-inner,
+  .CustomRadioButton :global .ant-radio:hover .ant-radio-inner,
+  .CustomRadioButton :global .ant-radio-input:focus + .ant-radio-inner {
+    background-color: #831C55;
+    border-color: #831C55;
+  }
+  
+  .CustomRadioButton :global .ant-radio-wrapper:hover .ant-radio-inner::after,
+  .CustomRadioButton :global .ant-radio:hover .ant-radio-inner::after,
+  .CustomRadioButton :global .ant-radio-input:focus + .ant-radio-inner::after {
+    border: 2px solid white; /* Add this line */
+  }
+  

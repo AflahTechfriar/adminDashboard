@@ -1,0 +1,31 @@
+.boxWrapper {
+    width: auto;
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.boxWrapper p {
+    color: #091420;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    border-radius: 10px;
+    border: 1px solid #DFDFDF;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}

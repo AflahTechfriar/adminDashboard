@@ -1,0 +1,33 @@
+
+
+.customInput {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  padding: 20px 4px;
+  background: #000000;
+  background-color: rgba(217, 217, 217, 0.06) !important;
+  border: 1px solid #727272 !important;
+  border-radius: 6px;
+  height: 40px;
+  width: 417px;
+  text-align: left;
+
+}
+.customInput::placeholder{
+  color: #777E90 !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+.customInput::-webkit-outer-spin-button,
+.customInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.input[type=number] {
+  -moz-appearance: textfield;
+}

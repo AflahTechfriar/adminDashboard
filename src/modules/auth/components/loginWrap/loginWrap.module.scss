@@ -1,0 +1,110 @@
+.wrapper {
+  font-family: "Manrope", sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--white);
+  .Box {
+    font-family: "Manrope", sans-serif;
+    h1 {
+      margin-top: 0;
+      margin-bottom: 1em;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 18px;
+      }
+    }
+    margin: 15% 25% 10% 30%;
+    .content {
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+
+      .errorText {
+        font-family: "Manrope", sans-serif;
+        font-size: small;
+        line-height: 14px;
+        color: red;
+      }
+      .container {
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        width: 100%;
+        height: 100%;
+
+        font-family: "Manrope", sans-serif;
+        display: flex;
+        margin-top: 20px;
+
+        .forgotPassword {
+          font-family: "Manrope", sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          margin-left: 38vh;
+          display: flex;
+
+          color: var(--primaryColor);
+        }
+        @media (max-width: 768px) {
+          .forgotPassword {
+            font-size: 10px;
+            margin-left: 15%;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .Box {
+      margin: 100% 15% 0% 30%;
+    }
+  }
+}
+
+.loginWrapper :global {
+  font-family: "Manrope", sans-serif;
+  .appInput_customInput__Trn1c {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    padding: 20px 4px;
+    background: #000000;
+    background-color: #fafafa !important;
+    border: 1px solid #e3e3e3 !important;
+    border-radius: 6px;
+    height: 50px;
+    width: 550px;
+    text-align: left;
+  }
+  @media (max-width: 768px) {
+    .appInput_customInput__Trn1c {
+      font-size: 8px;
+      height: 30px;
+      width: 130px;
+    }
+  }
+  .customButton {
+    height: 50px;
+    width: 550px;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  @media (max-width: 768px) {
+    .customButton {
+      height: 30px;
+      width: 130px;
+      font-family: "Manrope", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}
